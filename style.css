@@ -2,16 +2,56 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .body {
     display: flex;
+}
+
+.top-section {
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 100px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtext, ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
 }
 
 .footer {
