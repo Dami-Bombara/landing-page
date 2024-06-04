@@ -1,13 +1,14 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin-left: 125px;
+    margin-right: 125px;
     background-color: #1F2937;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 24px;
     color: #F9FAF8;
@@ -21,14 +22,13 @@ body {
     margin-top: 20px;
     display: flex;
     flex: 1;
-    justify-content: space-around;
-    border: 1px solid red;
+    justify-content: space-between;
 }
 
 .left-side {
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
+    gap: 10px;
 }
 
 .right-side {
@@ -36,11 +36,14 @@ body {
     justify-content: center;
     align-items: center;
     background-color: gray;
+    width: 300px;
+    color: white;
     padding: 100px;
 }
 
 .title {
     font-size: 48px;
+    width: 300px;
     font-weight: bolder;
     color: #F9FAF8;
 }
@@ -50,8 +53,18 @@ body {
     color: #E5E7EB;
 }
 
+.subtext {
+    width: 400px;
+}
+
 button {
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
     background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: 0;
 }
 
 .footer {
