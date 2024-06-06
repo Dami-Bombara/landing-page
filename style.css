@@ -80,9 +80,10 @@ body {
 }
 
 .card-text {
+    display: flex;
+    justify-content: space-evenly;
     color: gray;
     max-width: 140px;
-    text-align: center;
 }
 
 .third-container {
